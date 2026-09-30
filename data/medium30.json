@@ -1,0 +1,1497 @@
+{
+  "summary": "30 nodes, 128 directed edges, avg out-degree 4.27, max 6, density 0.14713",
+  "nodes": [
+    {
+      "id": "M00000",
+      "name": "Junction 0",
+      "x_km": -0.19150850359343807,
+      "y_km": 0.1785966944515848,
+      "zone": "north"
+    },
+    {
+      "id": "M00001",
+      "name": "Junction 1",
+      "x_km": 1.0760476656204079,
+      "y_km": -0.33301641572248836,
+      "zone": "east"
+    },
+    {
+      "id": "M00002",
+      "name": "Junction 2",
+      "x_km": 1.9845289043309182,
+      "y_km": 0.21881514560745738,
+      "zone": "south"
+    },
+    {
+      "id": "M00003",
+      "name": "Junction 3",
+      "x_km": 3.273232793242507,
+      "y_km": -0.03251279368708207,
+      "zone": "west"
+    },
+    {
+      "id": "M00004",
+      "name": "Junction 4",
+      "x_km": 3.873800921608732,
+      "y_km": -0.15198124991683143,
+      "zone": "north"
+    },
+    {
+      "id": "M00005",
+      "name": "Junction 5",
+      "x_km": 4.899057393278225,
+      "y_km": -0.3072438898377776,
+      "zone": "east"
+    },
+    {
+      "id": "M00006",
+      "name": "Junction 6",
+      "x_km": -0.34560121076210853,
+      "y_km": 0.9245508618085712,
+      "zone": "south"
+    },
+    {
+      "id": "M00007",
+      "name": "Junction 7",
+      "x_km": 0.8723745695822587,
+      "y_km": 0.9193154111885248,
+      "zone": "west"
+    },
+    {
+      "id": "M00008",
+      "name": "Junction 8",
+      "x_km": 2.3265815729240953,
+      "y_km": 0.8096961239368341,
+      "zone": "north"
+    },
+    {
+      "id": "M00009",
+      "name": "Junction 9",
+      "x_km": 3.276608875837716,
+      "y_km": 0.7839601829958621,
+      "zone": "east"
+    },
+    {
+      "id": "M00010",
+      "name": "Junction 10",
+      "x_km": 4.185776258229848,
+      "y_km": 0.6950080282694153,
+      "zone": "south"
+    },
+    {
+      "id": "M00011",
+      "name": "Junction 11",
+      "x_km": 4.962585051790213,
+      "y_km": 1.122143451922112,
+      "zone": "west"
+    },
+    {
+      "id": "M00012",
+      "name": "Junction 12",
+      "x_km": 0.12535774541052822,
+      "y_km": 1.8950104047694842,
+      "zone": "north"
+    },
+    {
+      "id": "M00013",
+      "name": "Junction 13",
+      "x_km": 0.9175545390790044,
+      "y_km": 1.910743454686564,
+      "zone": "east"
+    },
+    {
+      "id": "M00014",
+      "name": "Junction 14",
+      "x_km": 1.880259836338026,
+      "y_km": 1.9263331449987398,
+      "zone": "core"
+    },
+    {
+      "id": "M00015",
+      "name": "Junction 15",
+      "x_km": 3.2828605074840445,
+      "y_km": 2.2890720791626014,
+      "zone": "core"
+    },
+    {
+      "id": "M00016",
+      "name": "Junction 16",
+      "x_km": 3.798367562151371,
+      "y_km": 2.259807017604777,
+      "zone": "core"
+    },
+    {
+      "id": "M00017",
+      "name": "Junction 17",
+      "x_km": 4.709171135324072,
+      "y_km": 2.326194047075288,
+      "zone": "east"
+    },
+    {
+      "id": "M00018",
+      "name": "Junction 18",
+      "x_km": -0.04472323475384064,
+      "y_km": 2.763987347436951,
+      "zone": "south"
+    },
+    {
+      "id": "M00019",
+      "name": "Junction 19",
+      "x_km": 1.1662109744357556,
+      "y_km": 2.706133716475418,
+      "zone": "west"
+    },
+    {
+      "id": "M00020",
+      "name": "Junction 20",
+      "x_km": 2.2480487597757826,
+      "y_km": 2.8749792567770336,
+      "zone": "core"
+    },
+    {
+      "id": "M00021",
+      "name": "Junction 21",
+      "x_km": 2.8908576389837255,
+      "y_km": 2.959242197036844,
+      "zone": "core"
+    },
+    {
+      "id": "M00022",
+      "name": "Junction 22",
+      "x_km": 4.188274922894467,
+      "y_km": 2.818333431279195,
+      "zone": "core"
+    },
+    {
+      "id": "M00023",
+      "name": "Junction 23",
+      "x_km": 4.967024880612858,
+      "y_km": 3.2409876018608395,
+      "zone": "west"
+    },
+    {
+      "id": "M00024",
+      "name": "Junction 24",
+      "x_km": 0.02556487483464944,
+      "y_km": 3.9292886264043845,
+      "zone": "north"
+    },
+    {
+      "id": "M00025",
+      "name": "Junction 25",
+      "x_km": 0.923053957615513,
+      "y_km": 3.912369374151254,
+      "zone": "east"
+    },
+    {
+      "id": "M00026",
+      "name": "Junction 26",
+      "x_km": 2.0221874267246522,
+      "y_km": 4.086215377444846,
+      "zone": "core"
+    },
+    {
+      "id": "M00027",
+      "name": "Junction 27",
+      "x_km": 2.66887924482355,
+      "y_km": 4.217540411118009,
+      "zone": "west"
+    },
+    {
+      "id": "M00028",
+      "name": "Junction 28",
+      "x_km": 4.148617757475833,
+      "y_km": 4.214663549024015,
+      "zone": "core"
+    },
+    {
+      "id": "M00029",
+      "name": "Junction 29",
+      "x_km": 5.094824636254629,
+      "y_km": 3.6994378720512584,
+      "zone": "east"
+    }
+  ],
+  "edges": [
+    {
+      "source": "M00002",
+      "target": "M00008",
+      "distance_km": 0.683,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.271,
+      "travel_time_min": 1.874,
+      "name": "Link 2-8"
+    },
+    {
+      "source": "M00008",
+      "target": "M00002",
+      "distance_km": 0.683,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.271,
+      "travel_time_min": 1.874,
+      "name": "Link 2-8"
+    },
+    {
+      "source": "M00001",
+      "target": "M00007",
+      "distance_km": 1.269,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.281,
+      "travel_time_min": 1.765,
+      "name": "Link 1-7"
+    },
+    {
+      "source": "M00007",
+      "target": "M00001",
+      "distance_km": 1.269,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.281,
+      "travel_time_min": 1.765,
+      "name": "Link 1-7"
+    },
+    {
+      "source": "M00001",
+      "target": "M00000",
+      "distance_km": 1.367,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.223,
+      "travel_time_min": 1.759,
+      "name": "Link 1-0"
+    },
+    {
+      "source": "M00000",
+      "target": "M00001",
+      "distance_km": 1.367,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.223,
+      "travel_time_min": 1.759,
+      "name": "Link 1-0"
+    },
+    {
+      "source": "M00001",
+      "target": "M00008",
+      "distance_km": 1.694,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.251,
+      "travel_time_min": 2.262,
+      "name": "Link 1-8"
+    },
+    {
+      "source": "M00008",
+      "target": "M00001",
+      "distance_km": 1.694,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.251,
+      "travel_time_min": 2.262,
+      "name": "Link 1-8"
+    },
+    {
+      "source": "M00001",
+      "target": "M00006",
+      "distance_km": 1.899,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.257,
+      "travel_time_min": 2.556,
+      "name": "Link 1-6"
+    },
+    {
+      "source": "M00006",
+      "target": "M00001",
+      "distance_km": 1.899,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.257,
+      "travel_time_min": 2.556,
+      "name": "Link 1-6"
+    },
+    {
+      "source": "M00007",
+      "target": "M00013",
+      "distance_km": 0.993,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.221,
+      "travel_time_min": 2.549,
+      "name": "Link 7-13"
+    },
+    {
+      "source": "M00013",
+      "target": "M00007",
+      "distance_km": 0.993,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.221,
+      "travel_time_min": 2.549,
+      "name": "Link 7-13"
+    },
+    {
+      "source": "M00007",
+      "target": "M00006",
+      "distance_km": 1.218,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.0,
+      "travel_time_min": 1.218,
+      "name": "Link 7-6"
+    },
+    {
+      "source": "M00006",
+      "target": "M00007",
+      "distance_km": 1.218,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.0,
+      "travel_time_min": 1.218,
+      "name": "Link 7-6"
+    },
+    {
+      "source": "M00007",
+      "target": "M00012",
+      "distance_km": 1.229,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.137,
+      "travel_time_min": 1.424,
+      "name": "Link 7-12"
+    },
+    {
+      "source": "M00012",
+      "target": "M00007",
+      "distance_km": 1.229,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.137,
+      "travel_time_min": 1.424,
+      "name": "Link 7-12"
+    },
+    {
+      "source": "M00009",
+      "target": "M00003",
+      "distance_km": 0.817,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.279,
+      "travel_time_min": 2.266,
+      "name": "Link 9-3"
+    },
+    {
+      "source": "M00003",
+      "target": "M00009",
+      "distance_km": 0.817,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.279,
+      "travel_time_min": 2.266,
+      "name": "Link 9-3"
+    },
+    {
+      "source": "M00009",
+      "target": "M00010",
+      "distance_km": 0.914,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.057,
+      "travel_time_min": 1.938,
+      "name": "Link 9-10"
+    },
+    {
+      "source": "M00010",
+      "target": "M00009",
+      "distance_km": 0.914,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.057,
+      "travel_time_min": 1.938,
+      "name": "Link 9-10"
+    },
+    {
+      "source": "M00009",
+      "target": "M00008",
+      "distance_km": 0.951,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.382,
+      "travel_time_min": 3.078,
+      "name": "Link 9-8"
+    },
+    {
+      "source": "M00008",
+      "target": "M00009",
+      "distance_km": 0.951,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.382,
+      "travel_time_min": 3.078,
+      "name": "Link 9-8"
+    },
+    {
+      "source": "M00009",
+      "target": "M00004",
+      "distance_km": 1.111,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.42,
+      "travel_time_min": 1.916,
+      "name": "Link 9-4"
+    },
+    {
+      "source": "M00004",
+      "target": "M00009",
+      "distance_km": 1.111,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.42,
+      "travel_time_min": 1.916,
+      "name": "Link 9-4"
+    },
+    {
+      "source": "M00015",
+      "target": "M00016",
+      "distance_km": 0.517,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.448,
+      "travel_time_min": 1.873,
+      "name": "Link 15-16"
+    },
+    {
+      "source": "M00016",
+      "target": "M00015",
+      "distance_km": 0.517,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.448,
+      "travel_time_min": 1.873,
+      "name": "Link 15-16"
+    },
+    {
+      "source": "M00015",
+      "target": "M00021",
+      "distance_km": 0.777,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.652,
+      "travel_time_min": 4.466,
+      "name": "Link 15-21"
+    },
+    {
+      "source": "M00021",
+      "target": "M00015",
+      "distance_km": 0.777,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.652,
+      "travel_time_min": 4.466,
+      "name": "Link 15-21"
+    },
+    {
+      "source": "M00015",
+      "target": "M00022",
+      "distance_km": 1.049,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.546,
+      "travel_time_min": 2.311,
+      "name": "Link 15-22"
+    },
+    {
+      "source": "M00022",
+      "target": "M00015",
+      "distance_km": 1.049,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.546,
+      "travel_time_min": 2.311,
+      "name": "Link 15-22"
+    },
+    {
+      "source": "M00015",
+      "target": "M00020",
+      "distance_km": 1.19,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.587,
+      "travel_time_min": 2.881,
+      "name": "Link 15-20"
+    },
+    {
+      "source": "M00020",
+      "target": "M00015",
+      "distance_km": 1.19,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.587,
+      "travel_time_min": 2.881,
+      "name": "Link 15-20"
+    },
+    {
+      "source": "M00013",
+      "target": "M00012",
+      "distance_km": 0.793,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.097,
+      "travel_time_min": 1.756,
+      "name": "Link 13-12"
+    },
+    {
+      "source": "M00012",
+      "target": "M00013",
+      "distance_km": 0.793,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.097,
+      "travel_time_min": 1.756,
+      "name": "Link 13-12"
+    },
+    {
+      "source": "M00013",
+      "target": "M00019",
+      "distance_km": 0.834,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.508,
+      "travel_time_min": 3.39,
+      "name": "Link 13-19"
+    },
+    {
+      "source": "M00019",
+      "target": "M00013",
+      "distance_km": 0.834,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.508,
+      "travel_time_min": 3.39,
+      "name": "Link 13-19"
+    },
+    {
+      "source": "M00013",
+      "target": "M00014",
+      "distance_km": 0.963,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.511,
+      "travel_time_min": 3.939,
+      "name": "Link 13-14"
+    },
+    {
+      "source": "M00014",
+      "target": "M00013",
+      "distance_km": 0.963,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.511,
+      "travel_time_min": 3.939,
+      "name": "Link 13-14"
+    },
+    {
+      "source": "M00023",
+      "target": "M00029",
+      "distance_km": 0.476,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.34,
+      "travel_time_min": 1.442,
+      "name": "Link 23-29"
+    },
+    {
+      "source": "M00029",
+      "target": "M00023",
+      "distance_km": 0.476,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.34,
+      "travel_time_min": 1.442,
+      "name": "Link 23-29"
+    },
+    {
+      "source": "M00023",
+      "target": "M00022",
+      "distance_km": 0.887,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.496,
+      "travel_time_min": 3.52,
+      "name": "Link 23-22"
+    },
+    {
+      "source": "M00022",
+      "target": "M00023",
+      "distance_km": 0.887,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.496,
+      "travel_time_min": 3.52,
+      "name": "Link 23-22"
+    },
+    {
+      "source": "M00023",
+      "target": "M00017",
+      "distance_km": 0.951,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.36,
+      "travel_time_min": 2.972,
+      "name": "Link 23-17"
+    },
+    {
+      "source": "M00017",
+      "target": "M00023",
+      "distance_km": 0.951,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.36,
+      "travel_time_min": 2.972,
+      "name": "Link 23-17"
+    },
+    {
+      "source": "M00023",
+      "target": "M00028",
+      "distance_km": 1.272,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.141,
+      "travel_time_min": 1.481,
+      "name": "Link 23-28"
+    },
+    {
+      "source": "M00028",
+      "target": "M00023",
+      "distance_km": 1.272,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.141,
+      "travel_time_min": 1.481,
+      "name": "Link 23-28"
+    },
+    {
+      "source": "M00025",
+      "target": "M00024",
+      "distance_km": 0.898,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.376,
+      "travel_time_min": 2.878,
+      "name": "Link 25-24"
+    },
+    {
+      "source": "M00024",
+      "target": "M00025",
+      "distance_km": 0.898,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.376,
+      "travel_time_min": 2.878,
+      "name": "Link 25-24"
+    },
+    {
+      "source": "M00025",
+      "target": "M00026",
+      "distance_km": 1.113,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.294,
+      "travel_time_min": 1.576,
+      "name": "Link 25-26"
+    },
+    {
+      "source": "M00026",
+      "target": "M00025",
+      "distance_km": 1.113,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.294,
+      "travel_time_min": 1.576,
+      "name": "Link 25-26"
+    },
+    {
+      "source": "M00025",
+      "target": "M00019",
+      "distance_km": 1.231,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.394,
+      "travel_time_min": 2.031,
+      "name": "Link 25-19"
+    },
+    {
+      "source": "M00019",
+      "target": "M00025",
+      "distance_km": 1.231,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.394,
+      "travel_time_min": 2.031,
+      "name": "Link 25-19"
+    },
+    {
+      "source": "M00025",
+      "target": "M00018",
+      "distance_km": 1.502,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.135,
+      "travel_time_min": 1.736,
+      "name": "Link 25-18"
+    },
+    {
+      "source": "M00018",
+      "target": "M00025",
+      "distance_km": 1.502,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.135,
+      "travel_time_min": 1.736,
+      "name": "Link 25-18"
+    },
+    {
+      "source": "M00008",
+      "target": "M00014",
+      "distance_km": 1.203,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.435,
+      "travel_time_min": 2.129,
+      "name": "Link 8-14"
+    },
+    {
+      "source": "M00014",
+      "target": "M00008",
+      "distance_km": 1.203,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.435,
+      "travel_time_min": 2.129,
+      "name": "Link 8-14"
+    },
+    {
+      "source": "M00016",
+      "target": "M00022",
+      "distance_km": 0.682,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.463,
+      "travel_time_min": 2.54,
+      "name": "Link 16-22"
+    },
+    {
+      "source": "M00022",
+      "target": "M00016",
+      "distance_km": 0.682,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.463,
+      "travel_time_min": 2.54,
+      "name": "Link 16-22"
+    },
+    {
+      "source": "M00016",
+      "target": "M00017",
+      "distance_km": 0.914,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.505,
+      "travel_time_min": 3.693,
+      "name": "Link 16-17"
+    },
+    {
+      "source": "M00017",
+      "target": "M00016",
+      "distance_km": 0.914,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.505,
+      "travel_time_min": 3.693,
+      "name": "Link 16-17"
+    },
+    {
+      "source": "M00016",
+      "target": "M00021",
+      "distance_km": 1.146,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.712,
+      "travel_time_min": 3.979,
+      "name": "Link 16-21"
+    },
+    {
+      "source": "M00021",
+      "target": "M00016",
+      "distance_km": 1.146,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.712,
+      "travel_time_min": 3.979,
+      "name": "Link 16-21"
+    },
+    {
+      "source": "M00003",
+      "target": "M00004",
+      "distance_km": 0.613,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.033,
+      "travel_time_min": 1.268,
+      "name": "Link 3-4"
+    },
+    {
+      "source": "M00004",
+      "target": "M00003",
+      "distance_km": 0.613,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.033,
+      "travel_time_min": 1.268,
+      "name": "Link 3-4"
+    },
+    {
+      "source": "M00003",
+      "target": "M00010",
+      "distance_km": 1.168,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.259,
+      "travel_time_min": 1.576,
+      "name": "Link 3-10"
+    },
+    {
+      "source": "M00010",
+      "target": "M00003",
+      "distance_km": 1.168,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.259,
+      "travel_time_min": 1.576,
+      "name": "Link 3-10"
+    },
+    {
+      "source": "M00003",
+      "target": "M00008",
+      "distance_km": 1.268,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.121,
+      "travel_time_min": 1.443,
+      "name": "Link 3-8"
+    },
+    {
+      "source": "M00008",
+      "target": "M00003",
+      "distance_km": 1.268,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.121,
+      "travel_time_min": 1.443,
+      "name": "Link 3-8"
+    },
+    {
+      "source": "M00021",
+      "target": "M00020",
+      "distance_km": 0.649,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.644,
+      "travel_time_min": 3.646,
+      "name": "Link 21-20"
+    },
+    {
+      "source": "M00020",
+      "target": "M00021",
+      "distance_km": 0.649,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.644,
+      "travel_time_min": 3.646,
+      "name": "Link 21-20"
+    },
+    {
+      "source": "M00021",
+      "target": "M00027",
+      "distance_km": 1.278,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.61,
+      "travel_time_min": 3.277,
+      "name": "Link 21-27"
+    },
+    {
+      "source": "M00027",
+      "target": "M00021",
+      "distance_km": 1.278,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.61,
+      "travel_time_min": 3.277,
+      "name": "Link 21-27"
+    },
+    {
+      "source": "M00004",
+      "target": "M00010",
+      "distance_km": 0.903,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.257,
+      "travel_time_min": 2.431,
+      "name": "Link 4-10"
+    },
+    {
+      "source": "M00010",
+      "target": "M00004",
+      "distance_km": 0.903,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.257,
+      "travel_time_min": 2.431,
+      "name": "Link 4-10"
+    },
+    {
+      "source": "M00004",
+      "target": "M00005",
+      "distance_km": 1.037,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.318,
+      "travel_time_min": 1.521,
+      "name": "Link 4-5"
+    },
+    {
+      "source": "M00005",
+      "target": "M00004",
+      "distance_km": 1.037,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.318,
+      "travel_time_min": 1.521,
+      "name": "Link 4-5"
+    },
+    {
+      "source": "M00006",
+      "target": "M00000",
+      "distance_km": 0.762,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.156,
+      "travel_time_min": 1.806,
+      "name": "Link 6-0"
+    },
+    {
+      "source": "M00000",
+      "target": "M00006",
+      "distance_km": 0.762,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.156,
+      "travel_time_min": 1.806,
+      "name": "Link 6-0"
+    },
+    {
+      "source": "M00006",
+      "target": "M00012",
+      "distance_km": 1.079,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.303,
+      "travel_time_min": 1.548,
+      "name": "Link 6-12"
+    },
+    {
+      "source": "M00012",
+      "target": "M00006",
+      "distance_km": 1.079,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.303,
+      "travel_time_min": 1.548,
+      "name": "Link 6-12"
+    },
+    {
+      "source": "M00014",
+      "target": "M00020",
+      "distance_km": 1.018,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.701,
+      "travel_time_min": 3.405,
+      "name": "Link 14-20"
+    },
+    {
+      "source": "M00020",
+      "target": "M00014",
+      "distance_km": 1.018,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.701,
+      "travel_time_min": 3.405,
+      "name": "Link 14-20"
+    },
+    {
+      "source": "M00014",
+      "target": "M00019",
+      "distance_km": 1.058,
+      "speed_kmh": 60.0,
+      "road_type": "tunnel",
+      "congestion": 0.398,
+      "travel_time_min": 1.757,
+      "name": "Link 14-19"
+    },
+    {
+      "source": "M00019",
+      "target": "M00014",
+      "distance_km": 1.058,
+      "speed_kmh": 60.0,
+      "road_type": "tunnel",
+      "congestion": 0.398,
+      "travel_time_min": 1.757,
+      "name": "Link 14-19"
+    },
+    {
+      "source": "M00000",
+      "target": "M00007",
+      "distance_km": 1.297,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.224,
+      "travel_time_min": 1.671,
+      "name": "Link 0-7"
+    },
+    {
+      "source": "M00007",
+      "target": "M00000",
+      "distance_km": 1.297,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.224,
+      "travel_time_min": 1.671,
+      "name": "Link 0-7"
+    },
+    {
+      "source": "M00000",
+      "target": "M00012",
+      "distance_km": 1.746,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.029,
+      "travel_time_min": 1.798,
+      "name": "Link 0-12"
+    },
+    {
+      "source": "M00012",
+      "target": "M00000",
+      "distance_km": 1.746,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.029,
+      "travel_time_min": 1.798,
+      "name": "Link 0-12"
+    },
+    {
+      "source": "M00027",
+      "target": "M00026",
+      "distance_km": 0.66,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.656,
+      "travel_time_min": 3.837,
+      "name": "Link 27-26"
+    },
+    {
+      "source": "M00026",
+      "target": "M00027",
+      "distance_km": 0.66,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.656,
+      "travel_time_min": 3.837,
+      "name": "Link 27-26"
+    },
+    {
+      "source": "M00027",
+      "target": "M00020",
+      "distance_km": 1.407,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.308,
+      "travel_time_min": 2.033,
+      "name": "Link 27-20"
+    },
+    {
+      "source": "M00020",
+      "target": "M00027",
+      "distance_km": 1.407,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.308,
+      "travel_time_min": 2.033,
+      "name": "Link 27-20"
+    },
+    {
+      "source": "M00027",
+      "target": "M00028",
+      "distance_km": 1.48,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.521,
+      "travel_time_min": 3.09,
+      "name": "Link 27-28"
+    },
+    {
+      "source": "M00028",
+      "target": "M00027",
+      "distance_km": 1.48,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.521,
+      "travel_time_min": 3.09,
+      "name": "Link 27-28"
+    },
+    {
+      "source": "M00022",
+      "target": "M00017",
+      "distance_km": 0.717,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.447,
+      "travel_time_min": 2.593,
+      "name": "Link 22-17"
+    },
+    {
+      "source": "M00017",
+      "target": "M00022",
+      "distance_km": 0.717,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.447,
+      "travel_time_min": 2.593,
+      "name": "Link 22-17"
+    },
+    {
+      "source": "M00024",
+      "target": "M00018",
+      "distance_km": 1.168,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.171,
+      "travel_time_min": 1.409,
+      "name": "Link 24-18"
+    },
+    {
+      "source": "M00018",
+      "target": "M00024",
+      "distance_km": 1.168,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.171,
+      "travel_time_min": 1.409,
+      "name": "Link 24-18"
+    },
+    {
+      "source": "M00024",
+      "target": "M00019",
+      "distance_km": 1.673,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.517,
+      "travel_time_min": 3.464,
+      "name": "Link 24-19"
+    },
+    {
+      "source": "M00019",
+      "target": "M00024",
+      "distance_km": 1.673,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.517,
+      "travel_time_min": 3.464,
+      "name": "Link 24-19"
+    },
+    {
+      "source": "M00024",
+      "target": "M00026",
+      "distance_km": 2.003,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.254,
+      "travel_time_min": 2.685,
+      "name": "Link 24-26"
+    },
+    {
+      "source": "M00026",
+      "target": "M00024",
+      "distance_km": 2.003,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.254,
+      "travel_time_min": 2.685,
+      "name": "Link 24-26"
+    },
+    {
+      "source": "M00010",
+      "target": "M00011",
+      "distance_km": 0.887,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.245,
+      "travel_time_min": 2.35,
+      "name": "Link 10-11"
+    },
+    {
+      "source": "M00011",
+      "target": "M00010",
+      "distance_km": 0.887,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.245,
+      "travel_time_min": 2.35,
+      "name": "Link 10-11"
+    },
+    {
+      "source": "M00018",
+      "target": "M00012",
+      "distance_km": 0.886,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.194,
+      "travel_time_min": 2.199,
+      "name": "Link 18-12"
+    },
+    {
+      "source": "M00012",
+      "target": "M00018",
+      "distance_km": 0.886,
+      "speed_kmh": 30.0,
+      "road_type": "residential",
+      "congestion": 0.194,
+      "travel_time_min": 2.199,
+      "name": "Link 18-12"
+    },
+    {
+      "source": "M00018",
+      "target": "M00019",
+      "distance_km": 1.213,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.303,
+      "travel_time_min": 1.74,
+      "name": "Link 18-19"
+    },
+    {
+      "source": "M00019",
+      "target": "M00018",
+      "distance_km": 1.213,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.303,
+      "travel_time_min": 1.74,
+      "name": "Link 18-19"
+    },
+    {
+      "source": "M00011",
+      "target": "M00017",
+      "distance_km": 1.231,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.158,
+      "travel_time_min": 1.462,
+      "name": "Link 11-17"
+    },
+    {
+      "source": "M00017",
+      "target": "M00011",
+      "distance_km": 1.231,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.158,
+      "travel_time_min": 1.462,
+      "name": "Link 11-17"
+    },
+    {
+      "source": "M00011",
+      "target": "M00005",
+      "distance_km": 1.431,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.142,
+      "travel_time_min": 1.668,
+      "name": "Link 11-5"
+    },
+    {
+      "source": "M00005",
+      "target": "M00011",
+      "distance_km": 1.431,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.142,
+      "travel_time_min": 1.668,
+      "name": "Link 11-5"
+    },
+    {
+      "source": "M00011",
+      "target": "M00016",
+      "distance_km": 1.628,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.352,
+      "travel_time_min": 2.512,
+      "name": "Link 11-16"
+    },
+    {
+      "source": "M00016",
+      "target": "M00011",
+      "distance_km": 1.628,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.352,
+      "travel_time_min": 2.512,
+      "name": "Link 11-16"
+    },
+    {
+      "source": "M00005",
+      "target": "M00010",
+      "distance_km": 1.231,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.296,
+      "travel_time_min": 1.749,
+      "name": "Link 5-10"
+    },
+    {
+      "source": "M00010",
+      "target": "M00005",
+      "distance_km": 1.231,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.296,
+      "travel_time_min": 1.749,
+      "name": "Link 5-10"
+    },
+    {
+      "source": "M00005",
+      "target": "M00003",
+      "distance_km": 1.649,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.162,
+      "travel_time_min": 1.968,
+      "name": "Link 5-3"
+    },
+    {
+      "source": "M00003",
+      "target": "M00005",
+      "distance_km": 1.649,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.162,
+      "travel_time_min": 1.968,
+      "name": "Link 5-3"
+    },
+    {
+      "source": "M00028",
+      "target": "M00029",
+      "distance_km": 1.078,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.132,
+      "travel_time_min": 1.242,
+      "name": "Link 28-29"
+    },
+    {
+      "source": "M00029",
+      "target": "M00028",
+      "distance_km": 1.078,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.132,
+      "travel_time_min": 1.242,
+      "name": "Link 28-29"
+    },
+    {
+      "source": "M00028",
+      "target": "M00022",
+      "distance_km": 1.397,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.609,
+      "travel_time_min": 3.573,
+      "name": "Link 28-22"
+    },
+    {
+      "source": "M00022",
+      "target": "M00028",
+      "distance_km": 1.397,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.609,
+      "travel_time_min": 3.573,
+      "name": "Link 28-22"
+    },
+    {
+      "source": "M00029",
+      "target": "M00022",
+      "distance_km": 1.265,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.553,
+      "travel_time_min": 2.83,
+      "name": "Link 29-22"
+    },
+    {
+      "source": "M00022",
+      "target": "M00029",
+      "distance_km": 1.265,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.553,
+      "travel_time_min": 2.83,
+      "name": "Link 29-22"
+    },
+    {
+      "source": "M00029",
+      "target": "M00017",
+      "distance_km": 1.427,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.322,
+      "travel_time_min": 2.105,
+      "name": "Link 29-17"
+    },
+    {
+      "source": "M00017",
+      "target": "M00029",
+      "distance_km": 1.427,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.322,
+      "travel_time_min": 2.105,
+      "name": "Link 29-17"
+    },
+    {
+      "source": "M00026",
+      "target": "M00020",
+      "distance_km": 1.233,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.667,
+      "travel_time_min": 3.703,
+      "name": "Link 26-20"
+    },
+    {
+      "source": "M00020",
+      "target": "M00026",
+      "distance_km": 1.233,
+      "speed_kmh": 60.0,
+      "road_type": "arterial",
+      "congestion": 0.667,
+      "travel_time_min": 3.703,
+      "name": "Link 26-20"
+    }
+  ]
+}

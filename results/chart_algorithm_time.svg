@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="460" viewBox="0 0 780 460" font-family="Inter, Segoe UI, sans-serif">
+<rect width="780" height="460" fill="#ffffff"/>
+<text x="82" y="30" font-size="17" font-weight="600" fill="#111827">Routing query time vs network size</text>
+<text x="82" y="48" font-size="12" fill="#6b7280">Aurora City synthetic networks, avg degree 4, mean of random source-target pairs</text>
+<line x1="82" y1="396.0" x2="590" y2="396.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="400.0" font-size="11" fill="#6b7280" text-anchor="end">5.71e-03</text>
+<line x1="82" y1="329.2" x2="590" y2="329.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="333.2" font-size="11" fill="#6b7280" text-anchor="end">0.038</text>
+<line x1="82" y1="262.4" x2="590" y2="262.4" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="266.4" font-size="11" fill="#6b7280" text-anchor="end">0.250</text>
+<line x1="82" y1="195.6" x2="590" y2="195.6" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="199.6" font-size="11" fill="#6b7280" text-anchor="end">1.7</text>
+<line x1="82" y1="128.8" x2="590" y2="128.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="132.8" font-size="11" fill="#6b7280" text-anchor="end">11</text>
+<line x1="82" y1="62.0" x2="590" y2="62.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="66.0" font-size="11" fill="#6b7280" text-anchor="end">73</text>
+<line x1="82.0" y1="62" x2="82.0" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="82.0" y="416" font-size="11" fill="#6b7280" text-anchor="middle">25</text>
+<line x1="183.6" y1="62" x2="183.6" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="183.6" y="416" font-size="11" fill="#6b7280" text-anchor="middle">1,620</text>
+<line x1="285.2" y1="62" x2="285.2" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="285.2" y="416" font-size="11" fill="#6b7280" text-anchor="middle">3,215</text>
+<line x1="386.8" y1="62" x2="386.8" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="386.8" y="416" font-size="11" fill="#6b7280" text-anchor="middle">4,810</text>
+<line x1="488.4" y1="62" x2="488.4" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="488.4" y="416" font-size="11" fill="#6b7280" text-anchor="middle">6,405</text>
+<line x1="590.0" y1="62" x2="590.0" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="590.0" y="416" font-size="11" fill="#6b7280" text-anchor="middle">8,000</text>
+<line x1="82" y1="396" x2="590" y2="396" stroke="#9ca3af" stroke-width="1.2"/>
+<line x1="82" y1="62" x2="82" y2="396" stroke="#9ca3af" stroke-width="1.2"/>
+<polyline points="82.0,330.6 82.3,324.1 86.8,276.9 96.3,253.3 112.3,218.5 144.1,200.8 207.8,173.5 335.2,150.4 590.0,115.6" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="82.0" cy="330.6" r="3.2" fill="#2563eb"/>
+<circle cx="82.3" cy="324.1" r="3.2" fill="#2563eb"/>
+<circle cx="86.8" cy="276.9" r="3.2" fill="#2563eb"/>
+<circle cx="96.3" cy="253.3" r="3.2" fill="#2563eb"/>
+<circle cx="112.3" cy="218.5" r="3.2" fill="#2563eb"/>
+<circle cx="144.1" cy="200.8" r="3.2" fill="#2563eb"/>
+<circle cx="207.8" cy="173.5" r="3.2" fill="#2563eb"/>
+<circle cx="335.2" cy="150.4" r="3.2" fill="#2563eb"/>
+<circle cx="590.0" cy="115.6" r="3.2" fill="#2563eb"/>
+<line x1="608" y1="70" x2="632" y2="70" stroke="#2563eb" stroke-width="2.6"/>
+<text x="638" y="74" font-size="12" fill="#374151">dijkstra</text>
+<polyline points="82.0,327.5 82.3,321.7 86.8,279.1 96.3,254.3 112.3,225.8 144.1,201.1 207.8,175.3 335.2,154.7 590.0,122.3" fill="none" stroke="#dc2626" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="82.0" cy="327.5" r="3.2" fill="#dc2626"/>
+<circle cx="82.3" cy="321.7" r="3.2" fill="#dc2626"/>
+<circle cx="86.8" cy="279.1" r="3.2" fill="#dc2626"/>
+<circle cx="96.3" cy="254.3" r="3.2" fill="#dc2626"/>
+<circle cx="112.3" cy="225.8" r="3.2" fill="#dc2626"/>
+<circle cx="144.1" cy="201.1" r="3.2" fill="#dc2626"/>
+<circle cx="207.8" cy="175.3" r="3.2" fill="#dc2626"/>
+<circle cx="335.2" cy="154.7" r="3.2" fill="#dc2626"/>
+<circle cx="590.0" cy="122.3" r="3.2" fill="#dc2626"/>
+<line x1="608" y1="92" x2="632" y2="92" stroke="#dc2626" stroke-width="2.6"/>
+<text x="638" y="96" font-size="12" fill="#374151">a_star</text>
+<polyline points="82.0,373.0 82.3,361.3 86.8,319.3 96.3,286.3 112.3,258.8 144.1,235.6 207.8,208.1 335.2,183.9 590.0,150.9" fill="none" stroke="#059669" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="82.0" cy="373.0" r="3.2" fill="#059669"/>
+<circle cx="82.3" cy="361.3" r="3.2" fill="#059669"/>
+<circle cx="86.8" cy="319.3" r="3.2" fill="#059669"/>
+<circle cx="96.3" cy="286.3" r="3.2" fill="#059669"/>
+<circle cx="112.3" cy="258.8" r="3.2" fill="#059669"/>
+<circle cx="144.1" cy="235.6" r="3.2" fill="#059669"/>
+<circle cx="207.8" cy="208.1" r="3.2" fill="#059669"/>
+<circle cx="335.2" cy="183.9" r="3.2" fill="#059669"/>
+<circle cx="590.0" cy="150.9" r="3.2" fill="#059669"/>
+<line x1="608" y1="114" x2="632" y2="114" stroke="#059669" stroke-width="2.6"/>
+<text x="638" y="118" font-size="12" fill="#374151">bfs_min_hops</text>
+<polyline points="82.0,271.7 82.3,261.8 86.8,202.3 96.3,158.9 112.3,121.6 144.1,85.0" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="82.0" cy="271.7" r="3.2" fill="#d97706"/>
+<circle cx="82.3" cy="261.8" r="3.2" fill="#d97706"/>
+<circle cx="86.8" cy="202.3" r="3.2" fill="#d97706"/>
+<circle cx="96.3" cy="158.9" r="3.2" fill="#d97706"/>
+<circle cx="112.3" cy="121.6" r="3.2" fill="#d97706"/>
+<circle cx="144.1" cy="85.0" r="3.2" fill="#d97706"/>
+<line x1="608" y1="136" x2="632" y2="136" stroke="#d97706" stroke-width="2.6"/>
+<text x="638" y="140" font-size="12" fill="#374151">bellman_ford</text>
+<text x="336" y="444" font-size="12.5" fill="#374151" text-anchor="middle">nodes in network</text>
+<text x="20" y="229" font-size="12.5" fill="#374151" text-anchor="middle" transform="rotate(-90 20 229)">mean time per query (ms) (log scale)</text>
+</svg>

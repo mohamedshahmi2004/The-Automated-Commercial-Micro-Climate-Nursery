@@ -11,6 +11,19 @@ and bottleneck detection, with an empirical performance harness.
 > test cases, critical-infrastructure findings and a production-readiness
 > assessment.
 
+### Presentation plan coverage
+
+The brief's presentation plan maps onto this repository as follows:
+
+| Slides required | Content | Where it comes from |
+|---|---|---|
+| Problem, scope, assumptions (1) | scope, users, boundary, assumptions | REPORT.md §1, §8 |
+| Dataset justification (1) | 4 datasets, generation method, assumptions | REPORT.md §8 |
+| Requirements, candidate algorithms, selection, data structures (5) | one slide each: representation, optimal paths, constrained routing, reachability, connectivity/bottlenecks | REPORT.md §2–§7 |
+| Testing: performance, stability, complexity (1) | scaling tables, 49 differential tests, defects found | REPORT.md §3, §10 (Verification) |
+| Limitations and future modifications (1) | 9 gaps to a shippable product | REPORT.md §10 |
+| Architecture (class structure) | 4 layers, the classes that carry state, why | REPORT.md §9 |
+
 ---
 
 ## Quick start

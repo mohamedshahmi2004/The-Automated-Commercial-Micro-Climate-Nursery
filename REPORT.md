@@ -605,7 +605,92 @@ mid-sized European city; congestion values are illustrative rush-hour figures.
 
 ---
 
-## 9. What a production system would need that this prototype does not provide
+## 9. Architecture (class structure)
+
+Four layers, each depending only on the one below it. No layer reaches upward,
+so the domain model has no idea that A\* or Tarjan exist.
+
+```
+┌─ Interface ────────────────────────────────────────────────────────────────┐
+│  cli.py            demo · datasets · route · reach · analyse · benchmark   │
+│  benchmark.py      5 scaling experiments → CSV + SVG                      │
+│  charts.py         Series → line_chart / bar_chart (SVG, no dependency)    │
+└────────────────────────────────┬───────────────────────────────────────────┘
+┌─ Algorithms ───────────────────▼───────────────────────────────────────────┐
+│  algorithms.py     RouteResult                                             │
+│                    dijkstra · dijkstra_costs · a_star · bellman_ford       │
+│                    bfs_min_hops · _heuristic_factory · _reconstruct        │
+│  analysis.py       ReachabilityResult · ConnectivityReport                 │
+│                    BottleneckReport                                        │
+│                    reachable_within · connected_components                 │
+│                    is_strongly_connected · find_bottlenecks                │
+│                    edge_betweenness_top · verify_critical_* (references)   │
+└────────────────────────────────┬───────────────────────────────────────────┘
+┌─ Structure ────────────────────▼───────────────────────────────────────────┐
+│  graph.py          TransportNetwork    adjacency + reverse + edge index    │
+│                    MatrixNetwork       comparison baseline only            │
+│                    subnetwork()        materialise a constrained view      │
+│  constraints.py    RouteConstraints    allows_edge · allows_node           │
+│                                        + vehicle profiles                  │
+│  dataset.py        build_aurora_city · generate_synthetic_network          │
+│                    export_csv / export_json / load_csv · validate_geometry │
+└────────────────────────────────┬───────────────────────────────────────────┘
+┌─ Domain ───────────────────────▼───────────────────────────────────────────┐
+│  model.py          Node (frozen)  id, name, x, y, zone                    │
+│                    Edge           source, target, distance_km, speed_kmh, │
+│                                   road_type, congestion, pair_id          │
+│                                   + derived travel_time_min               │
+│                    RoadType       Enum, 7 classes                          │
+│                    Metric         Edge → float cost functions              │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+### The classes that carry state
+
+| Class | Kind | Mutable? | Holds |
+|---|---|---|---|
+| `Node` | frozen dataclass | no | identity and geometry — neither ever changes |
+| `Edge` | dataclass, `slots` | **yes** (`congestion`) | the connection's properties; travel time is a `@property` |
+| `RoadType` | `str` Enum | no | the seven road classes |
+| `Metric` | namespace of static functions | no | `Edge → float`; `balanced(α)` returns a closure |
+| `TransportNetwork` | class, `slots` | yes | `_nodes`, `_adjacency`, `_reverse`, `_edge_index` |
+| `MatrixNetwork` | class, `slots` | no | dense cost matrix, built from a network |
+| `RouteConstraints` | dataclass, `slots` | no | the filter; `with_blocked()` returns a copy |
+| `RouteResult` | dataclass | no | path, edges, cost, and the search-effort counters |
+| `ReachabilityResult` / `ConnectivityReport` / `BottleneckReport` | dataclasses | no | analysis output plus its own `describe()` |
+
+### Why it is shaped this way
+
+**Algorithms are functions, not classes.** `dijkstra(network, source, target,
+metric, constraints)` has no state worth keeping between calls, so a class would
+only add ceremony. The *results* are classes, because a result has behaviour —
+`RouteResult.total_time_min`, `describe()`.
+
+**`Metric` and `RouteConstraints` are the extension seams.** Every algorithm
+takes both as parameters, so adding a fifth cost metric or a new vehicle class
+touches **no algorithm code at all**. That is why one Dijkstra implementation
+serves four metrics × five profiles × two query shapes.
+
+**`Node` frozen, `Edge` not.** Geometry never changes; congestion changes
+constantly. Freezing `Node` makes it hashable and safe to share, while `Edge`
+stays mutable so `set_congestion` is O(1). Travel time is a derived property on
+`Edge` rather than a field — one source of truth for the only value that moves in
+real time (§5).
+
+**Reference implementations sit beside the real ones.** `MatrixNetwork`,
+`bellman_ford`, `verify_critical_nodes` and `verify_critical_edges` are not dead
+code: they are the differential-testing oracles and the source of every
+comparison in this report. Keeping them in the package means the claims stay
+checkable.
+
+**`slots` on the hot-path classes.** `Edge`, `TransportNetwork` and
+`RouteConstraints` all declare `__slots__`. On a 8,000-node network there are
+33,782 `Edge` objects, and dropping each one's `__dict__` is the difference
+between the list and the matrix staying competitive on memory at all.
+
+---
+
+## 10. What a production system would need that this prototype does not provide
 
 Honestly assessed, in rough order of how soon each would bite.
 
@@ -661,7 +746,7 @@ complexity result in this report.
 
 ---
 
-## 10. Summary of decisions
+## 11. Summary of decisions
 
 | Decision area | Choice | Decisive reason |
 |---|---|---|

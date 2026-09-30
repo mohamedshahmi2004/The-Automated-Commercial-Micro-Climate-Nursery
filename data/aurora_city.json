@@ -1,0 +1,1207 @@
+{
+  "summary": "30 nodes, 99 directed edges, avg out-degree 3.30, max 7, density 0.11379",
+  "nodes": [
+    {
+      "id": "N01",
+      "name": "Central Station",
+      "x_km": 0.0,
+      "y_km": 0.0,
+      "zone": "core"
+    },
+    {
+      "id": "N02",
+      "name": "Market Square",
+      "x_km": 0.8,
+      "y_km": 0.4,
+      "zone": "core"
+    },
+    {
+      "id": "N03",
+      "name": "Cathedral Gate",
+      "x_km": 1.5,
+      "y_km": 0.1,
+      "zone": "oldtown"
+    },
+    {
+      "id": "N04",
+      "name": "Old Town Cross",
+      "x_km": 2.1,
+      "y_km": 0.7,
+      "zone": "oldtown"
+    },
+    {
+      "id": "N05",
+      "name": "Guild Street",
+      "x_km": 2.4,
+      "y_km": -0.2,
+      "zone": "oldtown"
+    },
+    {
+      "id": "N06",
+      "name": "Riverside North",
+      "x_km": -0.6,
+      "y_km": 1.4,
+      "zone": "riverside"
+    },
+    {
+      "id": "N07",
+      "name": "North Bridge",
+      "x_km": -0.4,
+      "y_km": 2.3,
+      "zone": "riverside"
+    },
+    {
+      "id": "N08",
+      "name": "Northbank Junction",
+      "x_km": -0.2,
+      "y_km": 3.2,
+      "zone": "north"
+    },
+    {
+      "id": "N09",
+      "name": "University Campus",
+      "x_km": 1.3,
+      "y_km": 3.6,
+      "zone": "north"
+    },
+    {
+      "id": "N10",
+      "name": "Science Park",
+      "x_km": 2.6,
+      "y_km": 4.1,
+      "zone": "north"
+    },
+    {
+      "id": "N11",
+      "name": "Ring North",
+      "x_km": 0.2,
+      "y_km": 5.0,
+      "zone": "ring"
+    },
+    {
+      "id": "N12",
+      "name": "Ring East",
+      "x_km": 5.4,
+      "y_km": 3.0,
+      "zone": "ring"
+    },
+    {
+      "id": "N13",
+      "name": "Ring South",
+      "x_km": 4.6,
+      "y_km": -2.8,
+      "zone": "ring"
+    },
+    {
+      "id": "N14",
+      "name": "Ring West",
+      "x_km": -3.9,
+      "y_km": -0.6,
+      "zone": "ring"
+    },
+    {
+      "id": "N15",
+      "name": "West Gate",
+      "x_km": -2.4,
+      "y_km": -0.3,
+      "zone": "west"
+    },
+    {
+      "id": "N16",
+      "name": "Harbour Road",
+      "x_km": -2.8,
+      "y_km": -1.9,
+      "zone": "harbour"
+    },
+    {
+      "id": "N17",
+      "name": "Container Terminal",
+      "x_km": -3.6,
+      "y_km": -3.1,
+      "zone": "harbour"
+    },
+    {
+      "id": "N18",
+      "name": "South Quay",
+      "x_km": -1.4,
+      "y_km": -2.4,
+      "zone": "harbour"
+    },
+    {
+      "id": "N19",
+      "name": "South Bridge",
+      "x_km": -0.3,
+      "y_km": -2.0,
+      "zone": "riverside"
+    },
+    {
+      "id": "N20",
+      "name": "Stadium",
+      "x_km": 1.2,
+      "y_km": -2.6,
+      "zone": "south"
+    },
+    {
+      "id": "N21",
+      "name": "Retail Park",
+      "x_km": 2.9,
+      "y_km": -2.1,
+      "zone": "south"
+    },
+    {
+      "id": "N22",
+      "name": "Hospital",
+      "x_km": 3.3,
+      "y_km": -0.4,
+      "zone": "east"
+    },
+    {
+      "id": "N23",
+      "name": "East Interchange",
+      "x_km": 4.2,
+      "y_km": 0.9,
+      "zone": "east"
+    },
+    {
+      "id": "N24",
+      "name": "Tech Quarter",
+      "x_km": 3.8,
+      "y_km": 2.2,
+      "zone": "east"
+    },
+    {
+      "id": "N25",
+      "name": "Airport Spur",
+      "x_km": 6.4,
+      "y_km": 4.4,
+      "zone": "airport"
+    },
+    {
+      "id": "N26",
+      "name": "Aurora Airport",
+      "x_km": 7.6,
+      "y_km": 5.1,
+      "zone": "airport"
+    },
+    {
+      "id": "N27",
+      "name": "Metro Depot",
+      "x_km": 1.9,
+      "y_km": 1.6,
+      "zone": "core"
+    },
+    {
+      "id": "N28",
+      "name": "Civic Centre",
+      "x_km": 0.4,
+      "y_km": 1.1,
+      "zone": "core"
+    },
+    {
+      "id": "N29",
+      "name": "Hilltop Tunnel West",
+      "x_km": -1.9,
+      "y_km": 2.6,
+      "zone": "north"
+    },
+    {
+      "id": "N30",
+      "name": "Hilltop Tunnel East",
+      "x_km": 0.6,
+      "y_km": 2.9,
+      "zone": "north"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N01",
+      "target": "N02",
+      "distance_km": 0.9,
+      "speed_kmh": 40,
+      "road_type": "arterial",
+      "congestion": 0.55,
+      "travel_time_min": 3.0,
+      "name": "Station Approach"
+    },
+    {
+      "source": "N02",
+      "target": "N01",
+      "distance_km": 0.9,
+      "speed_kmh": 40,
+      "road_type": "arterial",
+      "congestion": 0.55,
+      "travel_time_min": 3.0,
+      "name": "Station Approach"
+    },
+    {
+      "source": "N01",
+      "target": "N28",
+      "distance_km": 1.2,
+      "speed_kmh": 40,
+      "road_type": "arterial",
+      "congestion": 0.45,
+      "travel_time_min": 3.273,
+      "name": "Civic Way"
+    },
+    {
+      "source": "N28",
+      "target": "N01",
+      "distance_km": 1.2,
+      "speed_kmh": 40,
+      "road_type": "arterial",
+      "congestion": 0.45,
+      "travel_time_min": 3.273,
+      "name": "Civic Way"
+    },
+    {
+      "source": "N01",
+      "target": "N06",
+      "distance_km": 1.6,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 2.743,
+      "name": "Riverside Drive"
+    },
+    {
+      "source": "N06",
+      "target": "N01",
+      "distance_km": 1.6,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 2.743,
+      "name": "Riverside Drive"
+    },
+    {
+      "source": "N02",
+      "target": "N03",
+      "distance_km": 0.8,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.4,
+      "travel_time_min": 2.667,
+      "name": "Cathedral Lane"
+    },
+    {
+      "source": "N03",
+      "target": "N02",
+      "distance_km": 0.8,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.4,
+      "travel_time_min": 2.667,
+      "name": "Cathedral Lane"
+    },
+    {
+      "source": "N02",
+      "target": "N27",
+      "distance_km": 1.7,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.35,
+      "travel_time_min": 5.231,
+      "name": "Depot Road"
+    },
+    {
+      "source": "N27",
+      "target": "N02",
+      "distance_km": 1.7,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.35,
+      "travel_time_min": 5.231,
+      "name": "Depot Road"
+    },
+    {
+      "source": "N02",
+      "target": "N28",
+      "distance_km": 0.84,
+      "speed_kmh": 30,
+      "road_type": "pedestrian",
+      "congestion": 0.0,
+      "travel_time_min": 1.68,
+      "name": "Market Walk"
+    },
+    {
+      "source": "N28",
+      "target": "N02",
+      "distance_km": 0.84,
+      "speed_kmh": 30,
+      "road_type": "pedestrian",
+      "congestion": 0.0,
+      "travel_time_min": 1.68,
+      "name": "Market Walk"
+    },
+    {
+      "source": "N03",
+      "target": "N04",
+      "distance_km": 0.9,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.25,
+      "travel_time_min": 2.4,
+      "name": "Old Town Wynd"
+    },
+    {
+      "source": "N04",
+      "target": "N03",
+      "distance_km": 0.9,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.25,
+      "travel_time_min": 2.4,
+      "name": "Old Town Wynd"
+    },
+    {
+      "source": "N03",
+      "target": "N05",
+      "distance_km": 0.98,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.2,
+      "travel_time_min": 2.45,
+      "name": "Guild Close"
+    },
+    {
+      "source": "N05",
+      "target": "N03",
+      "distance_km": 0.98,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.2,
+      "travel_time_min": 2.45,
+      "name": "Guild Close"
+    },
+    {
+      "source": "N04",
+      "target": "N05",
+      "distance_km": 0.98,
+      "speed_kmh": 20,
+      "road_type": "residential",
+      "congestion": 0.15,
+      "travel_time_min": 3.459,
+      "name": "Weavers Row"
+    },
+    {
+      "source": "N05",
+      "target": "N04",
+      "distance_km": 0.98,
+      "speed_kmh": 20,
+      "road_type": "residential",
+      "congestion": 0.15,
+      "travel_time_min": 3.459,
+      "name": "Weavers Row"
+    },
+    {
+      "source": "N04",
+      "target": "N27",
+      "distance_km": 0.95,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.3,
+      "travel_time_min": 2.714,
+      "name": "Chapel Street"
+    },
+    {
+      "source": "N27",
+      "target": "N04",
+      "distance_km": 0.95,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.3,
+      "travel_time_min": 2.714,
+      "name": "Chapel Street"
+    },
+    {
+      "source": "N05",
+      "target": "N22",
+      "distance_km": 0.95,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.5,
+      "travel_time_min": 2.28,
+      "name": "Infirmary Road"
+    },
+    {
+      "source": "N22",
+      "target": "N05",
+      "distance_km": 0.95,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.5,
+      "travel_time_min": 2.28,
+      "name": "Infirmary Road"
+    },
+    {
+      "source": "N27",
+      "target": "N28",
+      "distance_km": 1.6,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.25,
+      "travel_time_min": 4.267,
+      "name": "Museum Street"
+    },
+    {
+      "source": "N28",
+      "target": "N27",
+      "distance_km": 1.6,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.25,
+      "travel_time_min": 4.267,
+      "name": "Museum Street"
+    },
+    {
+      "source": "N28",
+      "target": "N06",
+      "distance_km": 1.08,
+      "speed_kmh": 40,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 2.314,
+      "name": "North Parade"
+    },
+    {
+      "source": "N06",
+      "target": "N28",
+      "distance_km": 1.08,
+      "speed_kmh": 40,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 2.314,
+      "name": "North Parade"
+    },
+    {
+      "source": "N06",
+      "target": "N07",
+      "distance_km": 0.95,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.35,
+      "travel_time_min": 1.754,
+      "name": "Riverside North"
+    },
+    {
+      "source": "N07",
+      "target": "N06",
+      "distance_km": 0.95,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.35,
+      "travel_time_min": 1.754,
+      "name": "Riverside North"
+    },
+    {
+      "source": "N07",
+      "target": "N08",
+      "distance_km": 0.95,
+      "speed_kmh": 50,
+      "road_type": "bridge",
+      "congestion": 0.6,
+      "travel_time_min": 2.85,
+      "name": "North Bridge"
+    },
+    {
+      "source": "N08",
+      "target": "N07",
+      "distance_km": 0.95,
+      "speed_kmh": 50,
+      "road_type": "bridge",
+      "congestion": 0.6,
+      "travel_time_min": 2.85,
+      "name": "North Bridge"
+    },
+    {
+      "source": "N19",
+      "target": "N18",
+      "distance_km": 1.2,
+      "speed_kmh": 50,
+      "road_type": "bridge",
+      "congestion": 0.5,
+      "travel_time_min": 2.88,
+      "name": "South Bridge"
+    },
+    {
+      "source": "N18",
+      "target": "N19",
+      "distance_km": 1.2,
+      "speed_kmh": 50,
+      "road_type": "bridge",
+      "congestion": 0.5,
+      "travel_time_min": 2.88,
+      "name": "South Bridge"
+    },
+    {
+      "source": "N01",
+      "target": "N19",
+      "distance_km": 2.09,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.45,
+      "travel_time_min": 4.56,
+      "name": "Southern Approach"
+    },
+    {
+      "source": "N19",
+      "target": "N01",
+      "distance_km": 2.09,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.45,
+      "travel_time_min": 4.56,
+      "name": "Southern Approach"
+    },
+    {
+      "source": "N29",
+      "target": "N30",
+      "distance_km": 2.6,
+      "speed_kmh": 60,
+      "road_type": "tunnel",
+      "congestion": 0.2,
+      "travel_time_min": 3.25,
+      "name": "Hilltop Tunnel"
+    },
+    {
+      "source": "N30",
+      "target": "N29",
+      "distance_km": 2.6,
+      "speed_kmh": 60,
+      "road_type": "tunnel",
+      "congestion": 0.2,
+      "travel_time_min": 3.25,
+      "name": "Hilltop Tunnel"
+    },
+    {
+      "source": "N08",
+      "target": "N29",
+      "distance_km": 1.86,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.15,
+      "travel_time_min": 2.626,
+      "name": "Hill Road West"
+    },
+    {
+      "source": "N29",
+      "target": "N08",
+      "distance_km": 1.86,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.15,
+      "travel_time_min": 2.626,
+      "name": "Hill Road West"
+    },
+    {
+      "source": "N30",
+      "target": "N09",
+      "distance_km": 1.0,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.2,
+      "travel_time_min": 1.5,
+      "name": "Hill Road East"
+    },
+    {
+      "source": "N09",
+      "target": "N30",
+      "distance_km": 1.0,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.2,
+      "travel_time_min": 1.5,
+      "name": "Hill Road East"
+    },
+    {
+      "source": "N06",
+      "target": "N29",
+      "distance_km": 1.9,
+      "speed_kmh": 40,
+      "road_type": "residential",
+      "congestion": 0.1,
+      "travel_time_min": 3.167,
+      "name": "Quarry Lane"
+    },
+    {
+      "source": "N29",
+      "target": "N06",
+      "distance_km": 1.9,
+      "speed_kmh": 40,
+      "road_type": "residential",
+      "congestion": 0.1,
+      "travel_time_min": 3.167,
+      "name": "Quarry Lane"
+    },
+    {
+      "source": "N08",
+      "target": "N09",
+      "distance_km": 1.6,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 2.743,
+      "name": "Campus Road"
+    },
+    {
+      "source": "N09",
+      "target": "N08",
+      "distance_km": 1.6,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 2.743,
+      "name": "Campus Road"
+    },
+    {
+      "source": "N09",
+      "target": "N10",
+      "distance_km": 1.4,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.25,
+      "travel_time_min": 2.24,
+      "name": "Innovation Way"
+    },
+    {
+      "source": "N10",
+      "target": "N09",
+      "distance_km": 1.4,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.25,
+      "travel_time_min": 2.24,
+      "name": "Innovation Way"
+    },
+    {
+      "source": "N08",
+      "target": "N11",
+      "distance_km": 1.9,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.2,
+      "travel_time_min": 1.583,
+      "name": "A1 Ring North"
+    },
+    {
+      "source": "N11",
+      "target": "N08",
+      "distance_km": 1.9,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.2,
+      "travel_time_min": 1.583,
+      "name": "A1 Ring North"
+    },
+    {
+      "source": "N11",
+      "target": "N10",
+      "distance_km": 2.65,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.2,
+      "travel_time_min": 2.208,
+      "name": "A1 Ring NE"
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "distance_km": 2.65,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.2,
+      "travel_time_min": 2.208,
+      "name": "A1 Ring NE"
+    },
+    {
+      "source": "N10",
+      "target": "N12",
+      "distance_km": 3.1,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.25,
+      "travel_time_min": 2.756,
+      "name": "A1 Ring East"
+    },
+    {
+      "source": "N12",
+      "target": "N10",
+      "distance_km": 3.1,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.25,
+      "travel_time_min": 2.756,
+      "name": "A1 Ring East"
+    },
+    {
+      "source": "N12",
+      "target": "N24",
+      "distance_km": 1.8,
+      "speed_kmh": 70,
+      "road_type": "arterial",
+      "congestion": 0.35,
+      "travel_time_min": 2.374,
+      "name": "Tech Approach"
+    },
+    {
+      "source": "N24",
+      "target": "N12",
+      "distance_km": 1.8,
+      "speed_kmh": 70,
+      "road_type": "arterial",
+      "congestion": 0.35,
+      "travel_time_min": 2.374,
+      "name": "Tech Approach"
+    },
+    {
+      "source": "N12",
+      "target": "N23",
+      "distance_km": 2.5,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.3,
+      "travel_time_min": 2.381,
+      "name": "A1 Ring SE"
+    },
+    {
+      "source": "N23",
+      "target": "N12",
+      "distance_km": 2.5,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.3,
+      "travel_time_min": 2.381,
+      "name": "A1 Ring SE"
+    },
+    {
+      "source": "N23",
+      "target": "N13",
+      "distance_km": 3.8,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.25,
+      "travel_time_min": 3.378,
+      "name": "A1 Ring South"
+    },
+    {
+      "source": "N13",
+      "target": "N23",
+      "distance_km": 3.8,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.25,
+      "travel_time_min": 3.378,
+      "name": "A1 Ring South"
+    },
+    {
+      "source": "N13",
+      "target": "N20",
+      "distance_km": 3.51,
+      "speed_kmh": 70,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 4.298,
+      "name": "Stadium Way"
+    },
+    {
+      "source": "N20",
+      "target": "N13",
+      "distance_km": 3.51,
+      "speed_kmh": 70,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 4.298,
+      "name": "Stadium Way"
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "distance_km": 9.05,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.2,
+      "travel_time_min": 7.542,
+      "name": "A1 Ring SW"
+    },
+    {
+      "source": "N14",
+      "target": "N13",
+      "distance_km": 9.05,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.2,
+      "travel_time_min": 7.542,
+      "name": "A1 Ring SW"
+    },
+    {
+      "source": "N14",
+      "target": "N15",
+      "distance_km": 1.6,
+      "speed_kmh": 70,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 1.959,
+      "name": "West Gate Road"
+    },
+    {
+      "source": "N15",
+      "target": "N14",
+      "distance_km": 1.6,
+      "speed_kmh": 70,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 1.959,
+      "name": "West Gate Road"
+    },
+    {
+      "source": "N14",
+      "target": "N11",
+      "distance_km": 7.15,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.15,
+      "travel_time_min": 5.608,
+      "name": "A1 Ring NW"
+    },
+    {
+      "source": "N11",
+      "target": "N14",
+      "distance_km": 7.15,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.15,
+      "travel_time_min": 5.608,
+      "name": "A1 Ring NW"
+    },
+    {
+      "source": "N22",
+      "target": "N23",
+      "distance_km": 1.6,
+      "speed_kmh": 60,
+      "road_type": "arterial",
+      "congestion": 0.45,
+      "travel_time_min": 2.909,
+      "name": "Hospital Link"
+    },
+    {
+      "source": "N23",
+      "target": "N22",
+      "distance_km": 1.6,
+      "speed_kmh": 60,
+      "road_type": "arterial",
+      "congestion": 0.45,
+      "travel_time_min": 2.909,
+      "name": "Hospital Link"
+    },
+    {
+      "source": "N23",
+      "target": "N24",
+      "distance_km": 1.4,
+      "speed_kmh": 60,
+      "road_type": "arterial",
+      "congestion": 0.35,
+      "travel_time_min": 2.154,
+      "name": "Eastfield Road"
+    },
+    {
+      "source": "N24",
+      "target": "N23",
+      "distance_km": 1.4,
+      "speed_kmh": 60,
+      "road_type": "arterial",
+      "congestion": 0.35,
+      "travel_time_min": 2.154,
+      "name": "Eastfield Road"
+    },
+    {
+      "source": "N24",
+      "target": "N10",
+      "distance_km": 2.32,
+      "speed_kmh": 60,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 3.314,
+      "name": "Park Avenue"
+    },
+    {
+      "source": "N10",
+      "target": "N24",
+      "distance_km": 2.32,
+      "speed_kmh": 60,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 3.314,
+      "name": "Park Avenue"
+    },
+    {
+      "source": "N22",
+      "target": "N21",
+      "distance_km": 1.8,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.4,
+      "travel_time_min": 3.6,
+      "name": "Retail Approach"
+    },
+    {
+      "source": "N21",
+      "target": "N22",
+      "distance_km": 1.8,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.4,
+      "travel_time_min": 3.6,
+      "name": "Retail Approach"
+    },
+    {
+      "source": "N21",
+      "target": "N20",
+      "distance_km": 1.8,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.35,
+      "travel_time_min": 3.323,
+      "name": "South Circular"
+    },
+    {
+      "source": "N20",
+      "target": "N21",
+      "distance_km": 1.8,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.35,
+      "travel_time_min": 3.323,
+      "name": "South Circular"
+    },
+    {
+      "source": "N21",
+      "target": "N13",
+      "distance_km": 1.9,
+      "speed_kmh": 70,
+      "road_type": "arterial",
+      "congestion": 0.25,
+      "travel_time_min": 2.171,
+      "name": "Ring Slip South"
+    },
+    {
+      "source": "N13",
+      "target": "N21",
+      "distance_km": 1.9,
+      "speed_kmh": 70,
+      "road_type": "arterial",
+      "congestion": 0.25,
+      "travel_time_min": 2.171,
+      "name": "Ring Slip South"
+    },
+    {
+      "source": "N20",
+      "target": "N19",
+      "distance_km": 1.67,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.4,
+      "travel_time_min": 3.34,
+      "name": "Stadium Approach"
+    },
+    {
+      "source": "N19",
+      "target": "N20",
+      "distance_km": 1.67,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.4,
+      "travel_time_min": 3.34,
+      "name": "Stadium Approach"
+    },
+    {
+      "source": "N18",
+      "target": "N16",
+      "distance_km": 1.6,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 2.743,
+      "name": "Harbour Road"
+    },
+    {
+      "source": "N16",
+      "target": "N18",
+      "distance_km": 1.6,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.3,
+      "travel_time_min": 2.743,
+      "name": "Harbour Road"
+    },
+    {
+      "source": "N16",
+      "target": "N17",
+      "distance_km": 1.49,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.25,
+      "travel_time_min": 2.384,
+      "name": "Terminal Road"
+    },
+    {
+      "source": "N17",
+      "target": "N16",
+      "distance_km": 1.49,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.25,
+      "travel_time_min": 2.384,
+      "name": "Terminal Road"
+    },
+    {
+      "source": "N16",
+      "target": "N15",
+      "distance_km": 1.7,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.25,
+      "travel_time_min": 2.72,
+      "name": "Dock Street"
+    },
+    {
+      "source": "N15",
+      "target": "N16",
+      "distance_km": 1.7,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.25,
+      "travel_time_min": 2.72,
+      "name": "Dock Street"
+    },
+    {
+      "source": "N15",
+      "target": "N01",
+      "distance_km": 2.5,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.45,
+      "travel_time_min": 5.455,
+      "name": "West Approach"
+    },
+    {
+      "source": "N01",
+      "target": "N15",
+      "distance_km": 2.5,
+      "speed_kmh": 50,
+      "road_type": "arterial",
+      "congestion": 0.45,
+      "travel_time_min": 5.455,
+      "name": "West Approach"
+    },
+    {
+      "source": "N12",
+      "target": "N25",
+      "distance_km": 1.9,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.2,
+      "travel_time_min": 1.583,
+      "name": "Airport Spur"
+    },
+    {
+      "source": "N25",
+      "target": "N12",
+      "distance_km": 1.9,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.2,
+      "travel_time_min": 1.583,
+      "name": "Airport Spur"
+    },
+    {
+      "source": "N25",
+      "target": "N26",
+      "distance_km": 1.4,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.15,
+      "travel_time_min": 1.098,
+      "name": "Terminal Approach"
+    },
+    {
+      "source": "N26",
+      "target": "N25",
+      "distance_km": 1.4,
+      "speed_kmh": 90,
+      "road_type": "motorway",
+      "congestion": 0.15,
+      "travel_time_min": 1.098,
+      "name": "Terminal Approach"
+    },
+    {
+      "source": "N01",
+      "target": "N27",
+      "distance_km": 2.56,
+      "speed_kmh": 60,
+      "road_type": "transit",
+      "congestion": 0.1,
+      "travel_time_min": 2.844,
+      "name": "Metro Line 1"
+    },
+    {
+      "source": "N27",
+      "target": "N01",
+      "distance_km": 2.56,
+      "speed_kmh": 60,
+      "road_type": "transit",
+      "congestion": 0.1,
+      "travel_time_min": 2.844,
+      "name": "Metro Line 1"
+    },
+    {
+      "source": "N27",
+      "target": "N09",
+      "distance_km": 2.2,
+      "speed_kmh": 60,
+      "road_type": "transit",
+      "congestion": 0.1,
+      "travel_time_min": 2.444,
+      "name": "Metro Line 1 N"
+    },
+    {
+      "source": "N09",
+      "target": "N27",
+      "distance_km": 2.2,
+      "speed_kmh": 60,
+      "road_type": "transit",
+      "congestion": 0.1,
+      "travel_time_min": 2.444,
+      "name": "Metro Line 1 N"
+    },
+    {
+      "source": "N01",
+      "target": "N26",
+      "distance_km": 9.43,
+      "speed_kmh": 80,
+      "road_type": "transit",
+      "congestion": 0.1,
+      "travel_time_min": 7.858,
+      "name": "Airport Express"
+    },
+    {
+      "source": "N26",
+      "target": "N01",
+      "distance_km": 9.43,
+      "speed_kmh": 80,
+      "road_type": "transit",
+      "congestion": 0.1,
+      "travel_time_min": 7.858,
+      "name": "Airport Express"
+    },
+    {
+      "source": "N05",
+      "target": "N02",
+      "distance_km": 1.77,
+      "speed_kmh": 30,
+      "road_type": "residential",
+      "congestion": 0.3,
+      "travel_time_min": 5.057,
+      "name": "Guild One-Way"
+    }
+  ]
+}

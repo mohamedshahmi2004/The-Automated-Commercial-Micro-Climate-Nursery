@@ -1,0 +1,5 @@
+profile,nodes,queries,mean_ms_per_query,mean_nodes_expanded,routes_found
+unconstrained,4000,40,5.6416,1756.3,40/40
+road vehicle,4000,40,5.3752,1756.3,40/40
+avoid congestion >0.6,4000,40,6.3078,1831.4,37/40
+heavy goods vehicle,4000,40,4.6488,1649.4,39/40

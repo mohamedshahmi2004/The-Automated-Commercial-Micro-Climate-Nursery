@@ -1,0 +1,26 @@
+id,name,x_km,y_km,zone
+S00000,Junction 0,0.0445,0.1123,north
+S00001,Junction 1,1.0828,-0.2516,east
+S00002,Junction 2,1.8153,0.3644,south
+S00003,Junction 3,3.3537,-0.3343,west
+S00004,Junction 4,4.3237,-0.3516,north
+S00005,Junction 5,0.2058,1.4711,east
+S00006,Junction 6,0.7915,0.7529,south
+S00007,Junction 7,1.8365,1.1079,west
+S00008,Junction 8,3.5147,0.8646,north
+S00009,Junction 9,4.1608,1.2603,east
+S00010,Junction 10,0.3705,2.5390,south
+S00011,Junction 11,1.2068,2.5244,west
+S00012,Junction 12,2.0879,2.5174,core
+S00013,Junction 13,3.3737,2.2355,core
+S00014,Junction 14,4.1753,2.0025,south
+S00015,Junction 15,-0.3601,3.5190,west
+S00016,Junction 16,1.1406,3.1983,north
+S00017,Junction 17,2.5758,3.2697,core
+S00018,Junction 18,3.1289,3.5407,core
+S00019,Junction 19,4.4596,3.5482,west
+S00020,Junction 20,-0.1354,4.3589,north
+S00021,Junction 21,1.3303,4.3665,east
+S00022,Junction 22,2.3466,4.5979,south
+S00023,Junction 23,3.3483,4.5192,west
+S00024,Junction 24,4.4673,4.5986,north

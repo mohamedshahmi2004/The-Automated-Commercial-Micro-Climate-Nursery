@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="460" viewBox="0 0 780 460" font-family="Inter, Segoe UI, sans-serif">
+<rect width="780" height="460" fill="#ffffff"/>
+<text x="82" y="30" font-size="17" font-weight="600" fill="#111827">Reachability: nodes within a travel-time budget</text>
+<text x="82" y="48" font-size="12" fill="#6b7280">Single source, 4000-node network</text>
+<line x1="82" y1="396.0" x2="590" y2="396.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="400.0" font-size="11" fill="#6b7280" text-anchor="end">-287</text>
+<line x1="82" y1="329.2" x2="590" y2="329.2" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="333.2" font-size="11" fill="#6b7280" text-anchor="end">597</text>
+<line x1="82" y1="262.4" x2="590" y2="262.4" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="266.4" font-size="11" fill="#6b7280" text-anchor="end">1,481</text>
+<line x1="82" y1="195.6" x2="590" y2="195.6" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="199.6" font-size="11" fill="#6b7280" text-anchor="end">2,364</text>
+<line x1="82" y1="128.8" x2="590" y2="128.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="132.8" font-size="11" fill="#6b7280" text-anchor="end">3,248</text>
+<line x1="82" y1="62.0" x2="590" y2="62.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="66.0" font-size="11" fill="#6b7280" text-anchor="end">4,132</text>
+<line x1="82.0" y1="62" x2="82.0" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="82.0" y="416" font-size="11" fill="#6b7280" text-anchor="middle">7.0</text>
+<line x1="183.6" y1="62" x2="183.6" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="183.6" y="416" font-size="11" fill="#6b7280" text-anchor="middle">31</text>
+<line x1="285.2" y1="62" x2="285.2" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="285.2" y="416" font-size="11" fill="#6b7280" text-anchor="middle">55</text>
+<line x1="386.8" y1="62" x2="386.8" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="386.8" y="416" font-size="11" fill="#6b7280" text-anchor="middle">79</text>
+<line x1="488.4" y1="62" x2="488.4" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="488.4" y="416" font-size="11" fill="#6b7280" text-anchor="middle">103</text>
+<line x1="590.0" y1="62" x2="590.0" y2="396" stroke="#f3f4f6" stroke-width="1"/>
+<text x="590.0" y="416" font-size="11" fill="#6b7280" text-anchor="middle">126</text>
+<line x1="82" y1="396" x2="590" y2="396" stroke="#9ca3af" stroke-width="1.2"/>
+<line x1="82" y1="62" x2="82" y2="396" stroke="#9ca3af" stroke-width="1.2"/>
+<polyline points="82.0,373.0 112.2,368.6 171.7,348.2 231.6,309.5 351.1,218.5 470.5,156.2 590.0,85.0" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="82.0" cy="373.0" r="3.2" fill="#2563eb"/>
+<circle cx="112.2" cy="368.6" r="3.2" fill="#2563eb"/>
+<circle cx="171.7" cy="348.2" r="3.2" fill="#2563eb"/>
+<circle cx="231.6" cy="309.5" r="3.2" fill="#2563eb"/>
+<circle cx="351.1" cy="218.5" r="3.2" fill="#2563eb"/>
+<circle cx="470.5" cy="156.2" r="3.2" fill="#2563eb"/>
+<circle cx="590.0" cy="85.0" r="3.2" fill="#2563eb"/>
+<line x1="608" y1="70" x2="632" y2="70" stroke="#2563eb" stroke-width="2.6"/>
+<text x="638" y="74" font-size="12" fill="#374151">nodes reached</text>
+<text x="336" y="444" font-size="12.5" fill="#374151" text-anchor="middle">budget (minutes)</text>
+<text x="20" y="229" font-size="12.5" fill="#374151" text-anchor="middle" transform="rotate(-90 20 229)">nodes reached</text>
+</svg>
